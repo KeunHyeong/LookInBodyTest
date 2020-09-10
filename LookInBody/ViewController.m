@@ -428,21 +428,21 @@
     }
 }
 
-//- (void)leftViewHidden:(BOOL)isHidden{
-//    
-//    [cameraView_1 setHidden:isHidden];
-//    [cameraBtn_1 setHidden:isHidden];
-//    [cameraLb_1 setHidden:isHidden];
-//    [albumBtn_1 setHidden:isHidden];
-//}
-//
-//- (void)rightViewHidden:(BOOL)isHidden{
-//    
-//    [cameraView_2 setHidden:isHidden];
-//    [cameraBtn_2 setHidden:isHidden];
-//    [cameraLb_2 setHidden:isHidden];
-//    [albumBtn_2 setHidden:isHidden];
-//    
-//}
+- (void)leftViewHidden:(BOOL)isHidden{
+
+    [cameraView_1 setHidden:isHidden];
+    [cameraBtn_1 setHidden:isHidden];
+    [cameraLb_1 setHidden:isHidden];
+    [albumBtn_1 setHidden:isHidden];
+}
+
+- (void)rightViewHidden:(BOOL)isHidden{
+
+    [cameraView_2 setHidden:isHidden];
+    [cameraBtn_2 setHidden:isHidden];
+    [cameraLb_2 setHidden:isHidden];
+    [albumBtn_2 setHidden:isHidden];
+
+}
 
 @end
